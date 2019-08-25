@@ -628,6 +628,40 @@ span.text-orange{
 .testimonial-area{
     margin-top: 289px;
 }
+.client-img{
+    position: relative;
+    bottom: 36px;
+}
+.client-info{
+    margin-left: 54px;
+    margin-bottom: 30px;
+}
+.client-info h3{
+    color: #373737;
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 18px;
+}
+.client-info p{
+    color: #616161;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 18px;
+}
+.review{
+    margin-bottom: 54px;
+}
+.review p{
+    color: #616161;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
 
 
 
@@ -635,11 +669,58 @@ span.text-orange{
 .project-area{
     margin-top: 132px;
 }
+.project-bg{
+    width: 1178px;
+    height: 255px;
+    background-image: url(img/project-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: relative; 
+    z-index: 30;
+}
+.project-title h1{
+    color: #ffffff;
+    font-family: 'Righteous', cursive;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 72px;
+    position: relative;
+    bottom: 200px;
+    z-index: 31;
+}
+.text-blue{
+    color: #313aaf;
+}
+.project-control{
+    height: 202px;
+    background: #313aaf;
+    text-align: right;
+    padding-top: 96px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    position: relative;
+    bottom: 163px;
+    z-index: 29;
+}
+.project-control figure.figure {
+    width: 84px;
+    height: 84px;
+    background: #3e48bb;
+    text-align: center;
+    padding-top: 36px;
+    cursor: pointer;
+    transition: 1s;
+}
+.project-control figure.figure:hover{
+    background: #fc7837;
+    transition: 1s;
+}
 
 
 /* Latest News Area Stylesheet */
 .news-area{
-    margin-top: 132px;
+    /* margin-top: 132px; */
 }
 .post{
     height: 48.5vh;
